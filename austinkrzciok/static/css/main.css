@@ -1,0 +1,357 @@
+/*NAVBAR*/
+.navbar-custom{
+    background-color: #0D0D0D;
+}
+.n-link{
+    color: #F2F2F2;
+    margin-right: 1.5em;
+    font-size: large;
+    font-family: 'Source Code Pro', monospace;
+    text-decoration: none;
+}
+
+.n-accent{
+    color: #027333;
+}
+
+.n-link:hover{
+    color: #027333;
+}
+
+.btn-outline-success{
+    font-size: large;
+    font-family: 'Source Code Pro', monospace;
+    color: #027333;
+}
+
+.btn-outline-success:hover{
+    color: #027333;
+    background-color: rgba(2, 115, 51, 0.3);
+}
+
+/*MAIN*/
+
+/* intro section */
+#intro{
+    background: #0D0D0D;
+    height: 100vh;
+}
+
+#i-s1 h5{
+    margin-top: 8em;
+    font-family: 'Source Code Pro', monospace;
+    color: #027333;
+    margin-bottom: 2em;
+}
+
+#i-s1 p{
+    color: #59686f;
+}
+
+#i-s1-content{
+}
+
+#intro-display-1{
+    font-size: 4.5rem;
+    font-family: 'Lato', sans-serif;
+    color: #F2F2F2;
+}
+
+#intro-display-2{
+    font-size: 4.5rem;
+    font-family: 'Lato', sans-serif;
+    color: #59686f
+}
+
+.novus{
+    color: rgb(163, 10, 10);
+    text-decoration: none;
+}
+
+.at{
+    color: #70789b;
+    text-decoration: none;
+}
+
+.novus_2{
+    color: #23282d;
+    text-decoration: none;
+}
+
+.novus_2:hover{
+    color: rgb(163, 10, 10);
+}
+
+.at:hover{
+    color: #F2F2F2;
+}
+
+.novus:hover{
+    color: #F2F2F2;
+}
+
+/* about section */
+#about{
+    background: #027333;
+    height: 100vh;
+}
+
+.a-link{
+    color: #23282d;
+    text-decoration: none;
+}
+
+.a-link:hover{
+    color: #0D0D0D;
+}
+
+#a-s1{
+    padding-top: 6rem;
+}
+
+
+#a-s1 h2{
+    font-family: 'Source Code Pro', monospace;
+    font-weight: bold;
+    color: #0D0D0D;
+}
+
+.accent{
+    font-size: x-large;
+    font-family: 'Source Code Pro', monospace;
+    color: #F2F2F2;
+}
+
+#bio{
+    padding-top: 2em;
+}
+
+#bio p{
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    color: #F2F2F2;
+}
+
+.skills{
+    list-style-type: "> ";
+    font-family: 'Source Code Pro', monospace;
+}
+
+.skills li::marker{
+    color: #F2F2F2;
+}
+
+.skills li{
+    color: #F2F2F2;
+    font-size: smaller;
+}
+
+#profile{
+    content: url("https://via.placeholder.com/300/F2F2F2");
+    box-shadow: blue 0px 0px 0px 2px inset, #027333 40px 40px 0px -3px, #F2F2F2 40px 40px ;
+    border-radius:20px;
+    transition: 0.3s;
+}
+
+#profile:hover{
+    content: url("https://via.placeholder.com/300/000000");
+    box-shadow: blue 0px 0px 0px 2px inset, #027333 30px 30px 0px -3px, #F2F2F2 30px 30px ;
+}
+
+/* work section */
+#work{
+    background: #F2F2F2;
+    height: 100vh;
+}
+
+#w-s1{
+
+}
+
+#w-s1 h2{
+    font-family: "Source Code Pro", monospace;
+    font-weight: bold;
+    color: #027333;
+}
+
+.accent2{
+    font-size: x-large;
+    font-family: 'Source Code Pro', monospace;
+    color: #0D0D0D;
+}
+
+#accord{
+    padding-top: 2em;
+}
+
+.accordion-button{
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    color: #027333;
+}
+
+.accordion-item{
+    border: solid #027333;
+}
+
+.accordion-body{
+    background-color: #F2F2F2;
+}
+
+.accordion-button:link, .accordion-button:visited, .accordion-button:hover, .accordion-button:active {
+    background-color: #027333 !important;
+    color:#FFF !important;
+    text-decoration: none !important;
+    border: hidden !important;
+    border-color: #FFF !important;
+    box-shadow: 0px !important;
+}
+
+.accordion-button:not(.collapsed) {
+  color: #FFF  !important;
+  background-color: #027333 !important;
+}
+
+.accordion-button:after {
+  background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23ffffff'><path fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/></svg>") !important;
+}
+
+.accordion h6{
+    font-family: "Source Code Pro", sans-serif;
+    font-size: large;
+    font-weight: bold;
+    color: #027333;
+}
+
+.accordion p{
+    font-family: "Source Code Pro", sans-serif;
+    color: #027333;
+}
+
+.tasks{
+     list-style-type: "> ";
+    font-family: 'Source Code Pro', monospace;
+}
+
+.tasks li::marker{
+    color: #027333;
+}
+
+.tasks li{
+    color: #027333;
+    font-size: smaller;
+}
+
+.title{
+    color: #0D0D0D;
+}
+
+.hl-red{
+    text-decoration: none;
+    color: rgb(163, 10, 10);
+}
+
+.hl-red:hover{
+    text-decoration: none;
+    color: rgb(163, 10, 10);
+}
+
+.hl-blue{
+    text-decoration: none;
+    color: navy;
+}
+
+.hl-blue:hover{
+    text-decoration: none;
+    color: navy;
+}
+
+.hl-gold{
+    text-decoration: none;
+    color: goldenrod;
+}
+
+.hl-gold:hover{
+    text-decoration: none;
+    color: goldenrod;
+}
+
+.hl-bark{
+    text-decoration: none;
+    color: saddlebrown;
+}
+
+.hl-bark:hover{
+    text-decoration: none;
+    color: saddlebrown;
+;
+}
+
+/* projects section */
+
+#projects{
+    background-color: #0D0D0D;
+    height: 100vh;
+}
+
+#p-s1{
+    padding-top: 6em;
+}
+
+.section-header{
+    font-size: 1.5rem;
+}
+
+.project-header-1{
+    font-size: 1.5rem;
+    text-align: right;
+}
+
+.featured-project-header{
+    color: #027333;
+    font-size: .8rem;
+    font-family: "Source Code Pro", monospace;
+    text-align: right;
+}
+
+.accent3{
+    font-size: x-large;
+    font-family: "Source Code Pro", monospace;
+    color: #027333;
+}
+
+#p-s1 h2{
+    font-family: "Source Code Pro", monospace;
+    font-weight: bold;
+    color: #F2F2F2;
+}
+
+#p-s1-r2{
+    padding-top: 2em;
+}
+
+.p-badge{
+    border-radius: 5px;
+    background-color: #23282d;
+    text-align: right;
+}
+
+.p-badge p{
+    font-family: "Source Code Pro", monospace;
+    font-size: smaller;
+    color: #59686f;
+    margin: 1em;
+}
+
+.p-skills{
+    text-align: right;
+}
+
+.skill{
+    color: #027333;
+    font-family: "Source Code Pro", monospace;
+    font-size: .8rem;
+    margin-top: 2em;
+    margin-right: 1em;
+}
+

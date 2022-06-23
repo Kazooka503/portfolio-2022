@@ -1,0 +1,270 @@
+{% extends 'main/base.html' %}
+{% block content %}
+<style>
+    .grid-1{
+        border: dotted dodgerblue;
+    }
+    .grid-2{
+        border: dotted greenyellow;
+    }
+    .grid-3{
+        border: dotted crimson;
+    }
+</style>
+<div id="intro" class="container-fluid">
+    <div id="i-s1" class="container">
+        <div class="row">
+            <div class="col-8">
+                <div class="row">
+                    <h5>Hey, what's good?</h5>
+                </div>
+                <div class="row">
+                    <h1 id="intro-display-1">I'm Austin Krzciok</h1>
+                </div>
+                <div class="row">
+                    <h1 id="intro-display-2">I develop software and build things for the web.</h1>
+                </div>
+                <div class="row">
+                    <p>I'm a full-stack developer specializing in building ( and on occasion designing) engaging
+                    digital experiences.<br> Currently, I'm focused on building dynamic engineering solutions with
+                    <a class="novus" href="https://www.novuslabs.com/" target="_blank">Novus Labs</a>.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="about" class="container-fluid">
+    <div id="a-s1" class="container">
+        <div class="row justify-content-center">
+            <div class="col-5">
+                <div class="row">
+                    <h2 class="section-header"><span class="accent">01.</span> About Me</h2>
+                </div>
+            </div>
+            <div class="col-4">
+
+            </div>
+        </div>
+        <div id="bio" class="row justify-content-center">
+            <div class="col-5">
+                <div class="row">
+                    <p>Hi, thanks for stopping by! The purpose of this site is to showcase things I create, provide some
+                    details about myself, and push updates on what I'm currently up to.
+                    Feel free to poke around and let me know what you think!</p>
+
+                    <p>My interest in web development started back in 2007 when I decided to try creating custom MySpace
+                    themes - turns out customizing early social media profiles taught me a lot about HTML & CSS!</p>
+
+                    <p>Fast forward to today, and I've had the privilege of attending school at
+                    <a class="a-link" href="https://www.artinstitutes.edu/">The Art Institute of Portland for Graphic Design</a> and
+                    <a class="a-link" href="https://www.learncodinganywhere.com/">The Tech Academy for Software Development</a>. With an excellent
+                    foundation in full-stack development provided by these experiences I've had the privilege of working
+                    at a <a class="a-link" href="https://www.learncodinganywhere.com/ProsperITConsulting">software development consultancy agency</a>, a
+                    <a class="novus_2" href="https://www.novuslabs.com/">software engineering solutions provider</a>, as well as provide development work
+                    for various small businesses.</p>
+
+                    <p>My main focus these days is building dynamic software solutions, integrated hardware - software
+                    platforms, and engaging digital experiences at
+                    <a class="novus_2" href="https://www.novuslabs.com/">Novus Labs</a> for a variety of clients.</p>
+
+                    <p>Here are a few technologies I've been working with recently:</p>
+                </div>
+                <div class="row">
+                    <div class="col-4">
+                        <ul class="skills">
+                            <li>Python (3+)</li>
+                            <li>JavaScript</li>
+                            <li>Django</li>
+                        </ul>
+                    </div>
+                    <div class="col-4">
+                        <ul class="skills">
+                            <li>Nginx</li>
+                            <li>AWS(Cloud)</li>
+                            <li>Java</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4">
+                <img class="overlay" id="profile">
+            </div>
+        </div>
+    </div>
+</div>
+<div id="work" class="container-fluid">
+    <div class="row align-items-center" style="height: 100%">
+        <div id="w-s1" class="container">
+        <div class="row justify-content-center">
+            <div class="col-6">
+                <div class="row">
+                    <h2 class="section-header"><span class="accent2">02.</span> Experience</h2>
+                </div>
+                <div id="accord" class="row">
+                    <div class="accordion" id="accordionExample">
+                      <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingOne">
+                          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            Novus Labs
+                          </button>
+                        </h2>
+                        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                          <div class="accordion-body">
+                              <div class="row justify-content-center">
+                                  <div class="col">
+                                      <h6><span class="title">Software Developer</span><a class="hl-red" href="#">
+                                          @ Novus Labs</a></h6>
+                                    <p>2020 - Present</p>
+                                    <ul class="tasks">
+                                        <li>Write modern, reliable, and maintainable code for a diverse array of client
+                                        and internal projects</li>
+                                        <br>
+                                        <li>Work with a variety of different programming languages, platforms,
+                                        frameworks, and content management systems such as Python, Java, C++, JavaScript,
+                                        Django, Maven, AWS, and more</li>
+                                        <br>
+                                        <li>Communicate with a multi-disciplinary team of engineers, developers,
+                                        producers, and clients on a daily basis</li>
+                                    </ul>
+                                  </div>
+                              </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingTwo">
+                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            Prosper IT Consulting
+                          </button>
+                        </h2>
+                        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                          <div class="accordion-body">
+                              <div class="row justify-content-center">
+                                  <div class="col">
+                                      <h6><span class="title">Full Stack Developer</span><a class="hl-blue" href="#">
+                                          @ Prosper IT Consulting</a></h6>
+                                    <p>2020</p>
+                                    <ul class="tasks">
+                                        <li>Worked with a team of designers to build and maintain a C#/ASP.NET based
+                                        content management system for a local production theatre</li>
+                                        <br>
+                                        <li>Built a Django based web application for dispensaries to categorize
+                                            cannabis strains based on terpene profiles and manage inventory</li>
+                                        <br>
+                                        <li>Helped with daily development operations, participated in AGILE/SCRUM
+                                        development practices, fundamental Database operations with both MVT and MVC
+                                        frameworks</li>
+                                    </ul>
+                                  </div>
+                              </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingThree">
+                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            Pearl MedSpa
+                          </button>
+                        </h2>
+                        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                          <div class="accordion-body">
+                               <div class="row justify-content-center">
+                                  <div class="col">
+                                      <h6><span class="title">Web Content Manager</span><a class="hl-gold" href="#">
+                                          @ Pearl MedSpa</a></h6>
+                                        <p>2011 - 2013</p>
+                                    <ul class="tasks">
+                                        <li>Created custom graphics and marketing materials for campaigns and
+                                        events</li>
+                                        <br>
+                                        <li>Designed custom HTML/CSS based marketing emails - created promotional
+                                        material for company website</li>
+                                        <br>
+                                        <li>Interfaced with meetings on a weekly basis, provided technological expertise
+                                        and assisted with IT problems</li>
+                                    </ul>
+                                  </div>
+                              </div>
+                          </div>
+                        </div>
+                      </div>
+                        <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingFour">
+                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                            Goby Walnut
+                          </button>
+                        </h2>
+                        <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+                          <div class="accordion-body">
+                               <div class="row justify-content-center">
+                                  <div class="col">
+                                      <h6><span class="title">Website Administrator</span><a class="hl-bark" href="#">
+                                          @ Goby Walnut</a></h6>
+                                    <p>2010 - 2011</p>
+                                    <ul class="tasks">
+                                        <li>Photographed and cataloged inventory via internal web services</li>
+                                        <br>
+                                        <li>Engaged clients and assisted in customer purchasing</li>
+                                        <br>
+                                        <li>Maintained company website and assisted in improving internal business
+                                            organization operations</li>
+                                    </ul>
+                                  </div>
+                              </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+</div>
+<div id="projects" class="container-fluid">
+    <div id="p-s1" class="container">
+        <div class="row justify-content-center">
+            <div class="col-10">
+                <div class="row">
+                    <div class="col-5">
+                        <h2 class="section-header"><span class="accent3">03.</span> Some Things I've Built</h2>
+                    </div>
+                    <div class="col-5">
+
+                    </div>
+                </div>
+                <div id="p-s1-r2" class="row align-items-center">
+                    <div class="col-5">
+                        <img src="https://via.placeholder.com/503x315.png" alt="featured">
+                    </div>
+                    <div class="col-5">
+                        <div class="row">
+                            <h6 class="featured-project-header">Featured Project</h6>
+                        </div>
+                        <div class="row">
+                            <h2 class="project-header-1">Active-Track.com</h2>
+                        </div>
+                        <div class="row">
+                            <div class="p-badge">
+                                <p>A multiservice web application for delivering Marathon livestreams and automated
+                                    custom videos for race participants. Built in association with
+                                    <a class="novus" href="https://www.novuslabs.com/">Novus Labs</a> and <a class="at" href="http://www.active-track.com/">ActiveTrack</a>.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <p class="p-skills">
+                                <span class="skill">Django</span>
+                                <span class="skill">Nginx</span>
+                                <span class="skill">Bootstrap</span>
+                                <span class="skill">Stripe API</span>
+                                <span class="skill">AWS</span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
