@@ -1,5 +1,6 @@
 {% extends 'main/base.html' %}
 {% block content %}
+{% load static %}
 <style>
     .grid-1{
         border: dotted dodgerblue;
@@ -235,7 +236,7 @@
                 </div>
                 <div id="p-s1-r2" class="row align-items-center">
                     <div class="col-5">
-                        <img src="https://via.placeholder.com/503x315.png" alt="featured">
+                        <img src='{% static "images/at.png" %}' alt="featured">
                     </div>
                     <div class="col-5">
                         <div class="row">
@@ -260,6 +261,13 @@
                                 <span class="skill">Stripe API</span>
                                 <span class="skill">AWS</span>
                             </p>
+                        </div>
+                        <div class="row justify-content-end">
+                            <div class="col-2">
+                                <a href="http://www.active-track.com/" target="_blank">
+                                    <i class="fa-solid fa-person-to-portal fa-xl"></i>
+                                </a>
+                            </div>
                         </div>
                     </div>
                 </div>
