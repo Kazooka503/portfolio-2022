@@ -293,7 +293,7 @@
 
 #projects{
     background-color: #0D0D0D;
-    height: 100vh;
+    height: 150vh;
 }
 
 #p-s1{
@@ -365,6 +365,19 @@
     color: #027333;
 }
 
+.fa-folder{
+    color: #027333;
+    font-size: 2em;
+}
+
+.fa-github{
+    color: #F2F2F2;
+}
+
+.fa-github:hover{
+    color: #027333;
+}
+
 .img-container{
     background-size: contain;
 
@@ -386,7 +399,47 @@
 }
 
 #p-s1-r3{
-    padding-top: 4em;
+    padding-top: 8em;
+}
+
+.project-container{
+
+    text-decoration: none;
+    width: 320px;
+    height: 310px;
+    border-radius: 10px;
+    background-color: #23282d;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+
+.project-container:hover{
+    transform: translateY(-1em);
+
+}
+
+.folder-row{
+    padding-top: 2em;
+}
+
+.header-row{
+    padding-top: 2em;
+}
+
+.proj-head{
+    color: #F2F2F2;
+    font-family: "Source Code Pro", monospace;
+}
+
+.content-row{
+    padding-top: 1em;
+}
+
+.content-row p{
+    font-family: "Source Code Pro", monospace;
+    font-size: smaller;
+    color: #59686f;
 }
 
 
