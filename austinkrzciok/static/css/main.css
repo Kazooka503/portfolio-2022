@@ -470,6 +470,33 @@
     height: 100vh;
 }
 
+#c-s1{
+    padding-top: 8em;
+}
+
+#c-s1 h2{
+    font-family: "Source Code Pro", monospace;
+    font-weight: bold;
+    color: #027333;
+}
+
+#c-s1 h1{
+    padding-top: .5em;
+    font-family: 'Lato', sans-serif;
+    font-size: xxx-large;
+    font-weight: bold;
+}
+
+#c-s1 p{
+    padding-top: 1em;
+    color: #027333;
+    font-family: 'Lato', sans-serif;
+}
+
+#hellothere{
+    padding-top: 3em;
+}
+
 
 /*.p-img{*/
 /*    content: url("../images/at.png");*/
