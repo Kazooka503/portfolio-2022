@@ -412,6 +412,8 @@
     -webkit-transition: all .3s ease-in-out;
     -moz-transition: all .3s ease-in-out;
     transition: all .3s ease-in-out;
+    margin-left: .5em;
+    margin-right: .5em;
 }
 
 .project-container:hover{
@@ -442,6 +444,21 @@
     color: #59686f;
 }
 
+#proj-arch-head{
+    color: #F2F2F2;
+    font-family: "Source Code Pro", monospace;
+}
+
+#proj-arch-sub{
+    color: #027333;
+    font-family: "Source Code Pro", monospace;
+    font-size: smaller;
+    padding: .5em;
+}
+
+#proj-arch{
+    padding-top: 2em;
+}
 
 /*.p-img{*/
 /*    content: url("../images/at.png");*/
