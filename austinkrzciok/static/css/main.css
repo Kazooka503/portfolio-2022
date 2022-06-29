@@ -1,3 +1,5 @@
+{% load static %}
+
 /*NAVBAR*/
 .navbar-custom{
     background-color: #0D0D0D;
@@ -362,3 +364,37 @@
 .fa-person-to-portal:hover{
     color: #027333;
 }
+
+.img-container{
+    background-size: contain;
+
+    width: 503px;
+    height: 315px;
+    border-radius:10px;
+
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+
+#at-img{
+    background-image: url("../images/at.png");
+}
+
+#at-img:hover{
+    background-image: url("../images/at_hover.png");
+}
+
+#p-s1-r3{
+    padding-top: 4em;
+}
+
+
+/*.p-img{*/
+/*    content: url("../images/at.png");*/
+/*    border-radius:20px;*/
+/*}*/
+
+/*.p-img:hover{*/
+/*    content: url("../images/at_hover.png");*/
+/*}*/
